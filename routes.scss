@@ -1,0 +1,36 @@
+
+
+table.routesTable {
+	width: calc(100% - 2rem);
+	max-width: 75rem;
+	margin: 3rem auto;
+	border: 2px solid #bada55;
+
+
+		thead {
+			font-weight: 900;
+			background: #bada55 !important;
+		}
+
+		tr td {
+			font-size: 0.8rem !important;
+			padding: 0.125rem;
+		}
+		tr:nth-of-type(2n) {
+			background-color: #f0f0f0;
+		}
+		tr {
+			border-bottom: 1px solid #555;
+		}
+
+		a img.routeImg {
+			width: 64px;
+			height: 64px;
+		}
+
+		tfoot {
+			text-align: right;
+			font-size: 1rem !important;
+			font-weight: 500;
+		}
+}

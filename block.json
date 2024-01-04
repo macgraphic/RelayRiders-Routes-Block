@@ -1,0 +1,26 @@
+
+{
+    "name": "acf/routestable",
+    "title": "Routes Table",
+    "description": "Custom ACF Block to display Routes Repeater Fields",
+    "api_version": 2,
+    "acf_block_version": 2,
+    "style": [ "file:./routes.css" ],
+    "category": "rruk",
+    "icon": "admin-comments",
+    "keywords": ["routes", "map", "google", "timetable"],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "routes.php"
+    },
+    "align": "wide",
+    "supports": {
+        "anchor": true,
+        "mode": false,
+        "multiple": false,
+        "is_preview": false,
+        "html": false,
+        "align": false,
+        "jsx": false
+    }
+}
